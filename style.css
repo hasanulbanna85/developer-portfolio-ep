@@ -11,8 +11,9 @@ h1 {
     color: orange;
 }
 
-section {
+.flexible-container {
     display: flex;
+    margin-bottom: 100px;
 }
 
 .top-banner {
@@ -25,6 +26,10 @@ section {
     margin-left: 7%;
 }
 
+.half-width img {
+    width: 90%;
+}
+
 .link-btn {
     text-decoration: none;
     color: white;
@@ -34,5 +39,24 @@ section {
     border-radius: 7px;
 }
 
+.dream-big {
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.exp-area {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.exp-item {
+    width: 40%;
+    margin: 0 5%;
+    box-shadow: 10px 10px 40px gray;
+    padding-left: 20px;
+    border-radius: 10px;
+}
 
 /* flexible-container */
