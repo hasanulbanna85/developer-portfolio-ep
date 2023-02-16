@@ -59,4 +59,16 @@ h1 {
     border-radius: 10px;
 }
 
+#baby-web-dev {
+    border-left: 8px solid;
+    border-image: linear-gradient(rgb(0, 17, 167), rgb(106, 188, 255));
+    border-image-slice: 1;
+}
+
+#fullstack-web-dev {
+    border-left: 8px solid;
+    border-image: linear-gradient(rgb(148, 1, 1), rgb(255, 161, 144));
+    border-image-slice: 1;
+}
+
 /* flexible-container */
